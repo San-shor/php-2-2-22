@@ -10,6 +10,6 @@ class Example
     public function index(){
 //        echo "hello world";
 //        echo $this->firstNumber;
-        echo 
+
     }
 }

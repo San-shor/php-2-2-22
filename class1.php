@@ -6,4 +6,3 @@ $example=new Example();
 $example->index();
 
 
-//3 major rules for variable
