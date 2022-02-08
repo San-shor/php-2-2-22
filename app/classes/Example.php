@@ -8,7 +8,7 @@ class Example
     public $firstName;
     public $lastName;
     public function index(){
-//        echo "hello world";
+        echo "hello world";
 //        echo $this->firstNumber;
 
     }

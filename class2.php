@@ -18,3 +18,4 @@ use App\classes\Operator;
 
 $operator=new Operator();
 $operator->index();
+
