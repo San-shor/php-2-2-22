@@ -23,12 +23,13 @@ class Prime
         if ($this->number == 1) {
             return $this->flag = 0;
         }
-        for ($this->i = 2; $this->i <= $this->number / 2; $this->i++) {
+        for ($this->i = 2; $this->i < $this->number / 2; $this->i++) {
             if ($this->number % $this->i == 0) {
                 return $this->flag = 0;
             }
-            return $this->flag = 1;
+
         }
+        return $this->flag = 1;
 
     }
 
