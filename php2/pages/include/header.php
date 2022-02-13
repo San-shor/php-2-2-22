@@ -15,10 +15,10 @@
         <a href="action.php?pages=home" class="navbar-brand style">Logo</a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="action.php?pages=home" class="nav-link">Word Count</a>
+                <a href="action.php?pages=home" class="nav-link">Calculator</a>
             </li>
-            <li class="nav-item" ><a href="action.php?pages=home" class="nav-link">Series</a></li>
-            <li class="nav-item"><a href="product.php?pages=all-product" class="nav-link">All Product</a></li>
+            <li class="nav-item" ><a href="action.php?" class="nav-link">Odd Even</a></li>
+            <li class="nav-item"><a href="product.php?pages=all-product" class="nav-link">Prime</a></li>
         </ul>
     </div>
 </nav>

@@ -25,13 +25,8 @@
                     <div class="form-group row">
                         <label for="" class="col-md-4 col-form-label">Result</label>
                         <div class="col-md-8">
-<!--                            <input type="text" readonly value="--><?php //echo isset($result)?$result: '';?><!--" class="form-control">-->
-                            <textarea class="form-control" readonly name="" id="" cols="30" rows="10">
-                               <?php echo isset($result)?"$givenword\n$wordcount\n$characterCount":'';?>
-<!--                                --><?php //echo isset($result)? $result['givenword']:'' ?>
-<!--                                --><?php //echo isset($result)? $result['wordcount']:'' ?>
-<!--                                --><?php //echo isset($result)? $result['charCount']:'' ?>
-                            </textarea>
+                            <input type="text" readonly value="<?php echo isset($result)?$result: '';?>" class="form-control">
+
                         </div>
                     </div>
                     <div class="form-group row">

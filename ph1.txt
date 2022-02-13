@@ -1,0 +1,9 @@
+<textarea class="form-control" readonly name="" id="" cols="30" rows="10">-->
+<!--                               --><?php //echo isset($result)?"$givenword\n$wordcount\n$characterCount":'';?>
+<!--<!--                                -->--><?php ////echo isset($result)? $result['givenword']:'' ?>
+<!--<!--                                -->--><?php ////echo isset($result)? $result['wordcount']:'' ?>
+<!--<!--                                -->--><?php ////echo isset($result)? $result['charCount']:'' ?>
+<!--                            </textarea>-->
+
+
+
