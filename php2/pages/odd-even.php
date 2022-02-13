@@ -15,32 +15,32 @@ include 'pages/include/header.php'; ?>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">Start Number</label>
                                 <div class="col-md-8">
-                                    <input type="number" name="input_value" class="form-control">
+                                    <input type="number" name="firstnum" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">End Number</label>
                                 <div class="col-md-8">
-                                    <input type="number" name="input_value" class="form-control">
+                                    <input type="number" name="lastnum" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">Select</label>
                                 <div class="col-md-8">
-                                    <label for=""><input type="radio"name="type" value="odd">ODD</label>
-                                    <label for=""><input type="radio"name="type" value="even">Even</label>
+                                    <label for=""><input type="radio"name="type"value="odd">ODD</label>
+                                    <label for=""><input type="radio"name="type" checked  value="even">Even</label>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-8 col-form-label">Result</label>
                                 <div class="col-md-8">
-                                    <input type="text" readonly class="form-control" value=""/>
+                                    <input type="text" readonly class="form-control" value="<?php echo isset($result) ? $result : ''?>"/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-4 col-form-label">Submit</label>
                                 <div class="col-md-8">
-                                    <input type="submit" class="btn btn-success" name="btn">
+                                    <input type="submit" class="btn btn-success" name="button">
                                 </div>
                             </div>
                         </form>

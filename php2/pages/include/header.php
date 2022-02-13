@@ -17,8 +17,8 @@
             <li class="nav-item">
                 <a href="action.php?pages=home" class="nav-link">Calculator</a>
             </li>
-            <li class="nav-item" ><a href="action.php?" class="nav-link">Odd Even</a></li>
-            <li class="nav-item"><a href="product.php?pages=all-product" class="nav-link">Prime</a></li>
+            <li class="nav-item" ><a href="action.php?pages=odd-even" class="nav-link">Odd Even</a></li>
+            <li class="nav-item"><a href="action.php?pages=prime" class="nav-link">Prime</a></li>
         </ul>
     </div>
 </nav>

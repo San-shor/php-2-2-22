@@ -24,7 +24,7 @@ class Calculator
 
     protected function add()
     {
-        $this->result=$this->firstnum +$this->lastnum;
+        return $this->firstnum +$this->lastnum;
 
     }
     protected function sub()
