@@ -14,15 +14,15 @@
     <div class="container">
         <a href="action.php?pages=home" class="navbar-brand style">Logo</a>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a href="action.php?pages=home" class="nav-link">Calculator</a>
-            </li>
-            <li class="nav-item" ><a href="action.php?pages=odd-even" class="nav-link">Odd Even</a></li>
-            <li class="nav-item"><a href="action.php?pages=prime" class="nav-link">Prime</a></li>
-            <li class="nav-item"><a href="action.php?pages=all-product" class="nav-link">Products</a></li>
-            <?php foreach ($product as $catagory){?>
-            <li class="nav-item"><a href="action.php?pages=catagory&&id"></a></li>
+            <li class="nav-item"><a href="action.php?pages=all-products" class="nav-link">All Product</a></li>
+            <?php foreach ($catagories as $catagory)  {?>
+                <li class="nav-item"><a href="action.php?pages=catagory&&catagory_id=<?php echo $catagory['id'] ?>" class="nav-link"><?php echo $catagory['name'] ?></a></li>
+           <?php  } ?>
         </ul>
     </div>
 </nav>
+
+
+
+
 

@@ -18,6 +18,13 @@ if(isset($_GET['pages']))
     {
         include 'pages/prime.php';
     }
+    elseif ($_GET['pages']=='all-products' )
+    {
+        $catagory=new Catagory();
+        $product=$catagory->index();
+//        print_r($product);
+        include 'pages/all-products.php';
+    }
 }
 elseif (isset($_POST['btn'])){
     $calculator=new Calculator($_POST);
