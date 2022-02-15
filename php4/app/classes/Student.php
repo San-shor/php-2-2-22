@@ -32,11 +32,24 @@ class Student
     {
 //        echo '<pre>';
 //        print_r($_FILES['img']);
-        $this->imageName=$_FILES['img']['name'];
-        $this->imageDirectory='assets/img/upload/'.$this->imageName;
-        move_uploaded_file($_FILES['img']['tmp_name'],$this->imageDirectory);
+//        $this->imageName=$_FILES['img']['name'];
+//        $this->imageDirectory='assets/img/upload/'.$this->imageName;
+//        move_uploaded_file($_FILES['img']['tmp_name'],$this->imageDirectory);
+//        echo 'success';
+//        $this->imagesUpload();
+        $db='db.txt';
+        $file=fopen($db,'a');
+        fwrite($file,'hello World');
+        fclose($file);
         echo 'success';
 
+    }
+    public function imagesUpload()
+    {
+        $this->imageName=time().$this->file['name'];
+        $this->imageDirectory='assets/img/upload/'.$this->imageName;
+        move_uploaded_file($this->file['tmp_name'],$this->imageDirectory);
+        echo 'success';
     }
 }
 
